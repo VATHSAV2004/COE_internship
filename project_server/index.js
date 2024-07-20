@@ -13,7 +13,7 @@ const initialiseDb=async()=>{
     try{
                 db=await open({
                 driver:sqlite3.Database,
-                filename:'C:/Users/HP/Desktop/database_sqlite/sqlite-tools-win-x64-3450200/uniproject.db'
+                filename:'../uniproject.db'
             })
     }
     catch(e){
